@@ -25,6 +25,7 @@ public class Utility
 {
 	public static WebDriver driver;
 	public Properties prop;
+	private static String winHandle;
 	
 public WebDriver initializeDriver() throws IOException 
 {
@@ -90,4 +91,7 @@ public static WebElement waitforElementToBeClickable(By locator,int timeoutinsec
 	return wait.until(ExpectedConditions.elementToBeClickable(locator));
 	
 }
+
+
+
 }

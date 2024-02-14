@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <suite name="Suite">
 <listeners>
 <listener class-name="Listeners.listeners"></listener>
 </listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="TestCases.Createaccounttest"/>
       <class name="TestCases.Signintest"/>
-      <class name="TestCases.TitleValidationtest"/>
-      <class name="TestCases.Bottomlinktest"/>
-      <class name="TestCases.Shoppingcarttest"/>
-      <class name="TestCases.Deptarmentvalidationtest"/>
-      <class name="TestCases.Shopbybrandtest"/>
-      <class name="TestCases.Checkoutcarttest"/>     
+      <class name="TestCases.Logintest"/>
+      <class name="TestCases.onewaytest"/>    
+      <class name="TestCases.twowaytest"/>
+      <class name="TestCases.bookingtest"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
